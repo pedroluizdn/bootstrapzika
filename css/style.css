@@ -1,0 +1,60 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+#navbar {
+	top: 0;
+	width: 100%;
+	background: rgb(200,230,255);
+	box-shadow: 0 2px 4px gray;
+}
+
+#navbar .navbar-brand {
+	font-size: 1.3em;
+	color: rgb(51,51,51);
+}
+
+#navbar button {
+	background: black;
+}
+
+#navbar button:hover {
+	background: silver;
+}
+
+#navbar a:link {
+	font-size: 1.2em;
+	color: rgb(51,51,51);
+}
+
+#navbar a:visited {
+	color: rgb(51,51,51);
+}
+
+#navbar a:hover {
+	color: rgb(255,150,150);
+}
+
+body {
+	text-align: center;
+	background: rgb(255,230,230);
+}
+
+footer {
+	background: rgb(255,200,100);
+	padding-top: 3em; 
+	padding-bottom: 3em; 
+}
+
+footer a:link {
+	font-size: 1.3em;
+}
+
+footer a:hover {
+	color: rgb(255,150,150);
+}
